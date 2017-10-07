@@ -1,28 +1,24 @@
-# Portfolio
+<h1>Welcome to my new Portfolio!</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+<p>Why a new portfolio? Well, you can view my old portfolio <a href="https://github.com/ThomasjNix/portfolio-live">here</a>. As much as I enjoyed building that portfolio, I felt it was a good time that I refactor everything, applying some of the new tech I've learned. Here's some updates I'm excited about:</p>
 
-## Development server
+<ul>
+    <li>Switch to Google Materialize styling for more minimalistic design</li>
+    <li>Better mobile responsivity</li>
+    <li>Dynamic loading of content with Angular2+</li>
+    <li>Angular Material2 components for better page feel and quality</li>
+    <li>Examples of projects with images</li>
+    <li>Direct contact form</li>
+</ul>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<p>And that's just the beginning! I'm looking forward to building this sleek, fast, and attractive portfolio as I learn more.</p>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<hr>
+<p>Structure</p>
+<ul>
+    <li>Back end: NodeJS, ExpressJS</li>
+    <li>Front end: Angular 2+, Google Materialize, Angular Material2 design</li>
+    <li>Database interaction: <em>TBD</em> (I'm not saying it's not PostgreSQL)</li>
+</ul>
+<h3>Happy Coding!</h3>
