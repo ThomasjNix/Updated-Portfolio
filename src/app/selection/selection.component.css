@@ -1,0 +1,15 @@
+.row{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.row .col{
+    padding: initial;
+}
+
+/* Materialize - Medium breakpoint*/
+@media (min-width: 992px){
+    .row{
+        width: 50%;
+    }
+}
