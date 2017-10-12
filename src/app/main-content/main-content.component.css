@@ -5,27 +5,43 @@
     overflow-x: hidden;
 }
 .content-container{
-    width: 66.67%;
+    width: 75%;
     position: fixed;
-    left: 16.67%;
+    left: 12.5%;
 }
 .content-header{
     text-align: center;
 }
 
+.row > .col.m1 > img{
+    margin-top: 25%;
+}
 
 /* Materialize - Small breakpoint */
 @media (max-width: 600px){
     .content-container{
-        width: 100%;
-        left: 0;
+      text-align: center;
+    }
+    .row p{
+        text-align: left;
+    }
+    
+    .row img{
+        width: 50%;
     }
 }
 
 /* Materialize - Medium breakpoint*/
 @media (max-width: 992px){
     .content-container{
-        width: 80%;
-        left: 10%;
+        width: 100%;
+        left: 0%;
+    }
+}
+
+/* Materialize - All sizes over medium */
+@media (min-width: 993px){
+    .row{
+        padding: 2rem;
     }
 }

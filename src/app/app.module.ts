@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SelectionComponent } from './selection/selection.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { ProjectComponent } from './main-content/project/project.component';
+import { PageService } from './page-service.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { ProjectComponent } from './main-content/project/project.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [PageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
