@@ -11,7 +11,7 @@ import { AsyncPipe } from '@angular/common';
 export class MainContentComponent implements OnInit {    
   /* For page loading purposes */    
   pageName: String;
-  pageTemplate: String;
+  pageTemplate: String[];
   /* For time calculation */
   devTimePersonal: number;
   devTimeProfessional: number;

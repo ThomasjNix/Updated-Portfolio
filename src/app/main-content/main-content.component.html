@@ -1,79 +1,9 @@
-
-
 <div class="content-container">
     <h3 class="content-header">{{ pageName }}</h3>
     <div class="content-body">
       
-      <!--About Me content template-->
-      
-       <div class="row">
-           <div class="col s12 m2">
-               <img src="http://lorempixel.com/output/nature-q-c-250-250-4.jpg" alt="portrait" class="circle responsive-img">
-           </div>
-           <div class="col s12 m10">
-              <h3>About Me</h3>
-               <p>I am a Charlotte NC born Computer Science student at UNC Charlotte graduating in May 2018. Although my concentratrion centers around computer systems, such as data structures, alrogithms, and design patterns, my primary interest is Web Development and I have been practicing web development personally for <strong>{{ devTimePersonal }}</strong> years and professionally for <strong>{{ devTimeProfessional }}</strong> years.</p>
-           </div>
-        </div>
-        
-        <hr>
-        
-        
-        <div class="row">
-           <div class="col s12 m2">
-               <img src="http://lorempixel.com/output/nature-q-c-250-250-4.jpg" alt="portrait" class="circle responsive-img">
-           </div>
-           <div class="col s12 m10">
-              <h3>Professional Life</h3>
-               <p>I worked my first web development internship at Virtual Strongbox, a startup company offering encrypted online storage to clients. Although most of what I did was simple CSS and JavaScript (see examples on the project page), I was involved in the teams development process and team meetings, learning more about the development process as I worked.</p>
-           </div>
-        </div>
-        
-        <hr>   
-        
-        
-        <div class="row">
-           <div class="col s12 m2">
-               <img src="http://lorempixel.com/output/nature-q-c-250-250-4.jpg" alt="portrait" class="circle responsive-img">
-           </div>
-           <div class="col s12 m10">
-              <h3>Private Life and Hobbies</h3>
-               <p>Outside of professional development, I have many hobbies and interests that I persue on my free time that I believe help shape my character. For example, I grow spicy peppers as a hobby, I downhill longboard for excitement and I enjoy working on cars with friends, as well as going to car meets. All in all I enjoy socializing and persuing interests with people that share similar interests, and sharing my experience as I go along.</p>
-           </div>
-        </div>
-       
-      <!--Project Template, TODO: Load projects, dynamically create app-project components-->
-<!--
-        <div class="row">
-            <app-project></app-project>
-            <hr>
-            <app-project></app-project>
-            <hr>
-            <app-project></app-project>
-            <hr>
-            <app-project></app-project>
-            <hr>
-            <app-project></app-project>
-            <hr>
-            <app-project></app-project>
-            <hr>
-            <app-project></app-project>
-            <hr>
-            <app-project></app-project>
-        </div>
--->
-        
-        
-    <!--Contact content template-->
+    <router-outlet></router-outlet>
     </div>
 </div>
-
-<script>
-
-
-
-</script>
-
-
 
 
